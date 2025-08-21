@@ -73,8 +73,6 @@ void codificar(char *original, char *codificado, char *alfabeto, int n){
     strcpy(codificado, original);
     primera_etapa(codificado, original, n);
     segunda_etapa(codificado, original, n);
--+
-
 }
 //primera codificacion
 void primera_etapa(char *codificado, char *original, int n){
